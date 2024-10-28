@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+/* body {
+  overflow-x: hidden;
+} */
+
+nav {
+  backdrop-filter: blur(90px);
+  box-shadow: 0px 0px 110px 0px #0000001a;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+nav header {
+  /* padding: 0px 155px !important; */
+  max-width: 100% !important;
+  /* background: #051b22e5 !important; */
+}
+
+/* Top trending */
+.trending {
+  animation: trending 20s linear forwards infinite;
+}
+
+@keyframes trending {
+  to {
+    transform: translateX(-10%);
+  }
+}
+/* Top Trending */
+
+/* Slider how */
+.slider-how {
+  position: relative;
+}
+
+.slider-how .swiper-pagination {
+  margin-top: 10px;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100px !important;
+  height: fit-content !important;
+}
+
+.slider-how .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
+.slider-how .swiper-pagination-bullet-active {
+  background-color: #fff;
+  color: #fff;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* Slider how */
